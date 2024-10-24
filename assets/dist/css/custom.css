@@ -1,0 +1,44 @@
+.top-range{position: fixed;top:0;left: 0;width: 0%;height: 4px;background: green;z-index: 999999;display:none;}
+.content-wrapper{margin-top: 50px;}
+.main-header{position: fixed;width:100%;}
+.main-sidebar{position: fixed;}
+.wrapper{overflow-x: initial;overflow-y: initial;}
+
+.add_new_parent,.hide_student{display:none;}
+.form-error{color:#f00;}
+.clear{clear:both;}
+#add_parent_using_existing{display:none;}
+.table-responsive{overflow-x: initial;}
+@media only screen and (max-width: 767px) {
+    .content-wrapper{margin-top: 50px;}
+	.main-header{position: relative;width:100%;}
+	.main-sidebar{position: absolute;}
+}
+.stats_box{    font-size: 22px;
+    font-weight: bold;
+    border: solid 2px;
+    float: left;
+    padding: 10px;}
+ul.list_search{
+	float:left;
+	list-style:none;
+	margin:40px 0 40px 10px;
+	padding:0;
+	width:100%;
+}
+ul.list_search li a{
+	padding:10px;
+	border: solid 1px #000;
+	float:left;
+	margin-right:10px;
+	color:#000;
+	background-color:#fff;
+}
+ul.list_search li a:hover, ul.list_search li a.active{
+	border: solid 1px #000;
+	color:#fff;
+	background-color:#000;
+}
+
+tr.expiring_soon{background-color:#f05f5f;color:#fff;}
+tr.expiring_soon:hover{color:#000;}
